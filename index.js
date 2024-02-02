@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
 app.post("/submit", (req, res) => {
   const randomAdj = adj[Math.floor(Math.random() * adj.length)];
   const randomNoun = noun[Math.floor(Math.random() * noun.length)];
-  res.render("D:/Band Generator/views/index.ejs",{
+  res.render("C:/Users/Pc/Band-Generator/views/index.ejs",{
     adjective: randomAdj, 
     noun: randomNoun
   });
